@@ -1,1 +1,5 @@
-# MScThesis
+# Modeling Underwriting Syndicates to Predict IPO Performance
+
+## Abstract
+
+This study investigates whether the structure of underwriting syndicates, modeled as a time-evolving hypergraph, carries predictive information about IPO first-day returns. Each syndicate is represented as a weighted hyperedge preserving the collective structure and hierarchical role weights that pairwise co-underwriting graphs discard. Hand-crafted hypergraph features are incorporated into an incremental specification framework and evaluated across XGBoost, Random Forest, Logistic Regression, and a Hypergraph Neural Network on 3,109 IPOs from the US, Canada, and Europe (2013–2026). Firm fundamentals and macroeconomic conditions account for the dominant share of predictive information. Hypergraph features improve multiclass classification for XGBoost but not for other algorithms, and outperform standard pairwise graph features. The HGNN does not match classical models. When the classification signal is translated into a selective subscription strategy, cumulative returns dominate passive and random benchmarks across all market regimes, though the incremental network contribution is not statistically distinguishable at the portfolio level.
